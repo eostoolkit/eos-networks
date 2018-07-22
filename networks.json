@@ -6,18 +6,20 @@
     network: "eos",
     endpoints: [
       {
+        name: "GenerEOS",
         protocol: "https",
         port: 443,
         url: "mainnet.genereos.io",
         description: "Public node provided by GenerEOS"
       },
       {
+        name: "Scatter Load Balancer",
         protocol: "https",
         port: 443,
         url: "nodes.get-scatter.com",
         description: "Load balancer of various public nodes provided by scatter"
       }
-    ] 
+    ]
     description: "The EOS Mainnet",
     owner: "The EOS community"
   },
@@ -28,12 +30,13 @@
     network: "eos",
     endpoints: [
       {
+        name: "Cryptolions 1"
         protocol: "http",
-        port: 38888,
+        port: 18888,
         url: "dev.cryptolions.io",
         description: "Public node provided by cryptolions"
       }
-    ] 
+    ]
     description: "Welcome to the Jungle",
     owner: "cryptolions"
   }
