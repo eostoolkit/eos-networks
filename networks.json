@@ -1,0 +1,40 @@
+[
+  {
+    name: "EOS Mainnet",
+    chainId: "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+    type: "mainnet",
+    network: "eos",
+    endpoints: [
+      {
+        protocol: "https",
+        port: 443,
+        url: "mainnet.genereos.io",
+        description: "Public node provided by GenerEOS"
+      },
+      {
+        protocol: "https",
+        port: 443,
+        url: "nodes.get-scatter.com",
+        description: "Load balancer of various public nodes provided by scatter"
+      }
+    ] 
+    description: "The EOS Mainnet",
+    owner: "The EOS community"
+  },
+  {
+    name: "Jungle Testnet",
+    chainId: "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+    type: "testnet",
+    network: "eos",
+    endpoints: [
+      {
+        protocol: "http",
+        port: 38888,
+        url: "dev.cryptolions.io",
+        description: "Public node provided by cryptolions"
+      }
+    ] 
+    description: "Welcome to the Jungle",
+    owner: "cryptolions"
+  }
+]
