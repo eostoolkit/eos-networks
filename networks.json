@@ -32,10 +32,10 @@
     "network": "eos",
     "endpoints": [
       {
-        "name": "Cryptolions 1",
-        "protocol": "http",
-        "port": 18888,
-        "url": "dev.cryptolions.io",
+        "name": "EOS Costa Rica",
+        "protocol": "https",
+        "port": 443,
+        "url": "jungle.eosio.cr",
         "description": "Public node provided by cryptolions"
       }
     ]
