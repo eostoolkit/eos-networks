@@ -32,7 +32,7 @@
     "network": "eos",
     "endpoints": [
       {
-        "name": "Cryptolions 1"
+        "name": "Cryptolions 1",
         "protocol": "http",
         "port": 18888,
         "url": "dev.cryptolions.io",
