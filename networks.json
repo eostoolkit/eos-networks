@@ -48,30 +48,6 @@
     ]
   },
   {
-    "name": "Jungle Testnet",
-    "description": "Welcome to the Jungle",
-    "owner": "cryptolions",
-    "chainId": "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
-    "type": "testnet",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS Costa Rica",
-        "protocol": "https",
-        "port": 443,
-        "url": "jungle.eosio.cr",
-        "description": "Public node provided by EOS Costa Rica"
-      },
-      {
-        "name": "EOSMetal",
-        "protocol": "https",
-        "port": 443,
-        "url": "junglenodes.eosmetal.io",
-        "description": "HA Proxy node provided by EOSMetal"
-      }
-    ]
-  },
-  {
     "name": "iRespo Testnet",
     "description": "iRespo Testnet for ICO",
     "owner": "irespo",
