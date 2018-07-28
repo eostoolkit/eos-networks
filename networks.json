@@ -46,5 +46,22 @@
         "description": "HA Proxy node provided by EOSMetal"
       }
     ]
+  },
+  {
+    "name": "iRespo Testnet",
+    "description": "iRespo Testnet for ICO",
+    "owner": "irespo",
+    "chainId": "cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f",
+    "type": "testnet",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "iRespo Testnet",
+        "protocol": "https",
+        "port": 443,
+        "url": "irespodev.northeurope.cloudapp.azure.com",
+        "description": "Node provided for ICO tests"
+      }
+    ]
   }
 ]
