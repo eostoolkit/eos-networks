@@ -8,6 +8,34 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "EOS New York",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.eosnewyork.io",
+        "description": "API Node"
+      },
+      {
+        "name": "EOS Detroit",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.eosdetroit.io",
+        "description": "API Node"
+      },
+      {
+        "name": "Greymass",
+        "protocol": "https",
+        "port": 443,
+        "url": "eos.greymass.com",
+        "description": "API Node"
+      },
+      {
+        "name": "Cypherglass",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.cypherglass.com",
+        "description": "API Node"
+      },
+      {
         "name": "GenerEOS",
         "protocol": "https",
         "port": 443,
