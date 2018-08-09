@@ -8,6 +8,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "EOS Nation",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.eosn.io",
+        "description": "API Node"
+      },
+      {
         "name": "EOS New York",
         "protocol": "https",
         "port": 443,
