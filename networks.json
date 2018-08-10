@@ -48,6 +48,41 @@
         "port": 443,
         "url": "nodes.get-scatter.com",
         "description": "Load balancer of various public nodes provided by scatter"
+      },
+      {
+        "name": "EOS Cafe",
+        "protocol": "https",
+        "port": 443,
+        "url": "mainnet.eoscalgary.io",
+        "description": "API Node"
+      },
+      {
+        "name": "HK EOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.hkeos.com",
+        "description": "API Node"
+      },
+      {
+        "name": "CryptoLions",
+        "protocol": "https",
+        "port": 443,
+        "url": "bp.cryptolions.io",
+        "description": "API Node"
+      },
+      {
+        "name": "EOS Emerge Poland",
+        "protocol": "https",
+        "port": 443,
+        "url": {"dc1.eosemerge.io:8888","http://dc1.eosemerge.io:5443"}
+        "description": "API Node"
+      },
+      {
+        "name": "EOS Dublin",
+        "protocol": "https",
+        "port": 443,
+        "url": ["https://api1.eosdublin.io","https://api2.eosdublin.io"]
+        "description": "API Node"
       }
     ]
   },
