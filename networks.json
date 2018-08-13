@@ -72,6 +72,12 @@
         "port": 443,
         "url": "junglenodes.eosmetal.io",
         "description": "HA Proxy node provided by EOSMetal"
+      },
+      {
+        "protocol": "http",
+        "port": 38888,
+        "url": "jungle.cryptolions.io",
+        "description": "Jungle node provided by CryptoLions.io"
       }
     ]
   }
