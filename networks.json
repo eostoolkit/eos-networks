@@ -81,5 +81,36 @@
         "description": "HA Proxy node provided by EOSMetal"
       }
     ]
+  },
+  {
+    "name": "Kylin Testnet",
+    "description": "CryptoKylin Testnet",
+    "owner": "CryptoKylin",
+    "chainId": "5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191",
+    "type": "testnet",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "eospace",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.kylin-testnet.eospace.io",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "eosasia",
+        "protocol": "https",
+        "port": 443,
+        "url": "api-kylin.eosasia.one",
+        "description": "HTTPS API"
+      },
+      {
+        "name": "eoslaomao",
+        "protocol": "https",
+        "port": 443,
+        "url": "api-kylin.eoslaomao.com",
+        "description": "HTTPS API"
+      }
+    ]
   }
 ]
