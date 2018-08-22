@@ -8,6 +8,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "franceos",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.franceos.fr",
+        "description": "API Node"
+      },
+      {
         "name": "EOS Nation",
         "protocol": "https",
         "port": 443,
