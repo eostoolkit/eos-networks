@@ -9,6 +9,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "EOS IMPERA",
+        "protocol": "https",
+        "port": 443,
+        "url": "mainnet.eosimpera.com",
+        "description": "Public node provided by EOS IMPERA"
+      },
+      {
         "name": "franceos",
         "protocol": "https",
         "port": 443,
