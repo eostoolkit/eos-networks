@@ -30,13 +30,6 @@
         "description": "API Node"
       },
       {
-        "name": "EOS Detroit",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.eosdetroit.io",
-        "description": "API Node"
-      },
-      {
         "name": "Greymass",
         "protocol": "https",
         "port": 443,
