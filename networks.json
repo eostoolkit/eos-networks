@@ -7,7 +7,14 @@
     "type": "mainnet",
     "prefix":"EOS",
     "network": "eos",
-    "endpoints": [     
+    "endpoints": [
+      {
+        "name": "franceos",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.franceos.fr",
+        "description": "API Node"
+      },
       {
         "name": "EOS Nation",
         "protocol": "https",
