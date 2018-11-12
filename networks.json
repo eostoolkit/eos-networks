@@ -69,6 +69,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "Aloha EOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.jungle.alohaeos.com",
+        "description": "Public node provided by Aloha EOS"
+      },
+      {
         "name": "EOS Costa Rica",
         "protocol": "https",
         "port": 443,
@@ -93,6 +100,13 @@
     "prefix":"EOS",
     "network": "eos",
     "endpoints": [
+      {
+        "name": "Aloha EOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.kylin.alohaeos.com",
+        "description": "Public node provided by Aloha EOS"
+      },
       {
         "name": "eospace",
         "protocol": "https",
