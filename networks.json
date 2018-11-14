@@ -151,5 +151,23 @@
         "description": "HTTPS API"
       }
     ]
+  },
+  {
+    "name": "EOS ANLAB Testnet",
+    "description": "ANLAB Testnet",
+    "owner": "ANLAB",
+    "chainId": "cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f",
+    "type": "testnet",
+    "prefix":"ANLAB",
+    "network": "anlab",
+    "endpoints": [
+      {
+        "name": "EOS Anlab",
+        "protocol": "http",
+        "port": 8888,
+        "url": "http://54.244.134.153",
+        "description": "HTTP API"
+      }
+    ]
   }
 ]
