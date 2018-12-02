@@ -135,6 +135,24 @@
     ]
   },
   {
+    "name": "Junglenet new Testnet",
+    "description": "Testnet",
+    "owner": "Testnet",
+    "chainId": "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+    "type": "testnet",
+    "prefix":"WBI",
+    "network": "worbli",
+    "endpoints": [
+      {
+        "name": "Junglenet new",
+        "protocol": "http",
+        "port": 38888,
+        "url": "dev.cryptolions.io",
+        "description": "HTTPS API"
+      }
+    ]
+  },
+  {
     "name": "TELOS Testnet",
     "description": "TELOS Testnet",
     "owner": "TELOS",
