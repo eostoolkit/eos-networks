@@ -16,6 +16,13 @@
         "description": "API Node"
       },
       {
+        "name": "EOS API PROXY",
+        "protocol": "https",
+        "port": 443,
+        "url": "proxy.eosnode.tools",
+        "description": "API Node"
+      },
+      {
         "name": "EOS Nation",
         "protocol": "https",
         "port": 443,
