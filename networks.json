@@ -181,6 +181,24 @@
     ]
   },
   {
+    "name": "WORBLI Mainnet",
+    "description": "WORBLI Mainnet",
+    "owner": "WORBLI",
+    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
+    "type": "mainnet",
+    "prefix":"WBI",
+    "network": "worbli",
+    "endpoints": [
+      {
+        "name": "Worbli",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.worbli.io",
+        "description": "HTTPS API"
+      }
+    ]
+  },
+  {
     "name": "TELOS Testnet",
     "description": "TELOS Testnet",
     "owner": "TELOS",
