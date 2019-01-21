@@ -9,6 +9,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "kbt",
+        "protocol": "https",
+        "port": 443,
+        "url": "kbt.kkg222.com",
+        "description": "API Node"
+      },
+      {
         "name": "franceos",
         "protocol": "https",
         "port": 443,
