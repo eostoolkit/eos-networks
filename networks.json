@@ -9,6 +9,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "eos-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith EOS Mainnet API"
+      },
+      {
         "name": "franceos",
         "protocol": "https",
         "port": 443,
@@ -101,6 +108,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "eos-jungle.eosblocksmith.io",
+        "description": "EOS BlockSmith Jungle Testnet v2 API"
+      },
+      {
         "name": "Aloha EOS",
         "protocol": "https",
         "port": 443,
@@ -166,11 +180,18 @@
     "name": "WORBLI Testnet",
     "description": "WORBLI Testnet",
     "owner": "WORBLI",
-    "chainId": "df2cf1f78b894e667077791e903c0b89091ef9e0e01cd019e4c7f22522794ad0",
+    "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
     "type": "testnet",
     "prefix":"WBI",
     "network": "worbli",
     "endpoints": [
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-testnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Testnet API"
+      },
       {
         "name": "EOSphere",
         "protocol": "https",
@@ -189,6 +210,13 @@
     "prefix":"WBI",
     "network": "worbli",
     "endpoints": [
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Mainnet API"
+      },
       {
         "name": "Worbli",
         "protocol": "https",
