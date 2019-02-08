@@ -83,6 +83,13 @@
     "network": "telos",
     "endpoints": [
       {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Telos Mainnet API"
+      },
+      {
         "name": "CalEOS",
         "protocol": "https",
         "port": 443,
@@ -235,6 +242,13 @@
     "prefix":"TLOS",
     "network": "telos",
     "endpoints": [
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos-testnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Telos Testnet API"
+      },
       {
         "name": "EOS Miami",
         "protocol": "https",
