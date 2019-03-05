@@ -80,7 +80,7 @@
     "chainId": "4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11",
     "type": "mainnet",
     "prefix":"TLOS",
-    "network": "telos",
+    "network": "eos",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
@@ -102,6 +102,24 @@
         "port": 443,
         "url": "api.telosfoundation.io",
         "description": "Load balancer of various public nodes provided by the Telos Foundation"
+      }
+    ]
+  },
+  {
+    "name": "MEETONE Mainnet",
+    "description": "MEETONE Mainnet",
+    "owner": "MEETONE",
+    "chainId": "cfe6486a83bad4962f232d48003b1824ab5665c36778141034d75e57b956e422",
+    "type": "mainnet",
+    "prefix":"MEETONE",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "MEETONE",
+        "protocol": "https",
+        "port": 443,
+        "url": "fullnode.meet.one",
+        "description": "MEETONE Mainnet API"
       }
     ]
   },
@@ -190,7 +208,7 @@
     "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
     "type": "testnet",
     "prefix":"WBI",
-    "network": "worbli",
+    "network": "eos",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
@@ -215,7 +233,7 @@
     "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
     "type": "mainnet",
     "prefix":"WBI",
-    "network": "worbli",
+    "network": "eos",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
