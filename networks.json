@@ -80,7 +80,7 @@
     "chainId": "4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11",
     "type": "mainnet",
     "prefix":"TLOS",
-    "network": "eos",
+    "network": "telos",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
@@ -106,20 +106,34 @@
     ]
   },
   {
-    "name": "MEETONE Mainnet",
-    "description": "MEETONE Mainnet",
-    "owner": "MEETONE",
-    "chainId": "cfe6486a83bad4962f232d48003b1824ab5665c36778141034d75e57b956e422",
+    "name": "Freedom First Mainnet",
+    "description": "Freedom First Mainnet",
+    "owner": "Freedom First",
+    "chainId": "342f1b4af05f4978a8f5d8e3e3e3761cb22dacf21a93e42abe0753bdacb6b621",
     "type": "mainnet",
-    "prefix":"MEETONE",
-    "network": "eos",
+    "prefix":"FF",
+    "network": "ff",
     "endpoints": [
       {
-        "name": "MEETONE",
+        "name": "dconnect.live",
         "protocol": "https",
         "port": 443,
-        "url": "fullnode.meet.one",
-        "description": "MEETONE Mainnet API"
+        "url": "dconnect.live",
+        "description": "dConnect.live public node"
+      },
+      {
+        "name": "steem.host",
+        "protocol": "https",
+        "port": 443,
+        "url": "steem.host",
+        "description": "steem.host public node"
+      },
+      {
+        "name": "gostomp.co.za",
+        "protocol": "https",
+        "port": 443,
+        "url": "gostomp.co.za",
+        "description": "gostomp.co.za public node"
       }
     ]
   },
@@ -208,7 +222,7 @@
     "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
     "type": "testnet",
     "prefix":"WBI",
-    "network": "eos",
+    "network": "worbli",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
@@ -233,7 +247,7 @@
     "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
     "type": "mainnet",
     "prefix":"WBI",
-    "network": "eos",
+    "network": "worbli",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
