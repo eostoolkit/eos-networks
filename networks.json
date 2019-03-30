@@ -45,6 +45,13 @@
         "port": 443,
         "url": "api.telosfoundation.io",
         "description": "Load balancer of various public nodes provided by the Telos Foundation"
+      },
+      {
+        "name": "Telos Germany",
+        "protocol": "https",
+        "port": 443,
+        "url": "apinode.telosgermany.io",
+        "description": "HTTPS API provided by BP candidate TelosGermany"
       }
     ]
   },
@@ -81,24 +88,6 @@
         "port": 443,
         "url": "fullnode.meet.one",
         "description": "MEETONE Mainnet API"
-      }
-    ]
-  },
-  {
-    "name": "WORBLI Mainnet",
-    "description": "WORBLI Mainnet",
-    "owner": "WORBLI",
-    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
-    "type": "mainnet",
-    "prefix":"WBI",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "worbli-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Worbli Mainnet API"
       }
     ]
   },
@@ -145,13 +134,24 @@
         "port": 443,
         "url": "api.cypherglass.com",
         "description": "API Node"
-      },
+      }
+    ]
+  },
+  {
+    "name": "WORBLI Mainnet",
+    "description": "WORBLI Mainnet",
+    "owner": "WORBLI",
+    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
+    "type": "mainnet",
+    "prefix":"WBI",
+    "network": "eos",
+    "endpoints": [
       {
-        "name": "Scatter Load Balancer",
+        "name": "EOS BlockSmith",
         "protocol": "https",
         "port": 443,
-        "url": "nodes.get-scatter.com",
-        "description": "Load balancer of various public nodes provided by scatter"
+        "url": "worbli-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Mainnet API"
       }
     ]
   },
@@ -177,13 +177,6 @@
         "port": 443,
         "url": "telos.caleos.io",
         "description": "Public node provided by CalEOS"
-      },
-      {
-        "name": "Telos Foundation",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.telosfoundation.io",
-        "description": "Load balancer of various public nodes provided by the Telos Foundation"
       }
     ]
   },
@@ -194,7 +187,7 @@
     "chainId": "e17615decaecd202a365f4c029f206eee98511979de8a5756317e2469f2289e3",
     "type": "testnet",
     "prefix":"TLOS",
-    "network": "telos",
+    "network": "eos",
     "endpoints": [
       {
         "name": "EOS BlockSmith",
