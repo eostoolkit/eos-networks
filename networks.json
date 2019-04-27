@@ -92,6 +92,24 @@
     ]
   },
   {
+    "name": "BOS Mainnet",
+    "description": "BOS Mainnet",
+    "owner": "BOS",
+    "chainId": "d5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86",
+    "type": "mainnet",
+    "prefix":"BOS",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "BOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.boscore.io",
+        "description": "BOS Mainnet API"
+      }
+    ]
+  },
+  {
     "name": "EOS Mainnet",
     "description": "The EOS Mainnet",
     "owner": "The EOS community",
