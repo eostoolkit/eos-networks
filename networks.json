@@ -318,5 +318,30 @@
         "description": "HTTPS API"
       }
     ]
+  },
+  {
+    "name": "WAX Mainnet",
+    "description": "The WAX Mainnet",
+    "owner": "WAX",
+    "chainId": "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
+    "type": "mainnet",
+    "prefix":"WAX",
+    "network": "eos",
+    "endpoints": [
+      {
+        "name": "WAX",
+        "protocol": "https",
+        "port": 443,
+        "url": "chain.wax.io",
+        "description": "API Node"
+      },      
+      {
+        "name": "WAX SWEDEN",
+        "protocol": "https",
+        "port": 443,
+        "url": "api.waxsweden.org",
+        "description": "API Node"
+      }
+    ]
   }
 ]
