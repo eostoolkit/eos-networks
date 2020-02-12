@@ -15,10 +15,10 @@
         "url": "eos.greymass.com",
         "description": "API Node"
       },      {
-        "name": "EOS API PROXY",
+        "name": "EOS Nation",
         "protocol": "https",
         "port": 443,
-        "url": "proxy.eosnode.tools",
+        "url": "api.eosn.io",
         "description": "API Node"
       },
       {
