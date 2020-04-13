@@ -1,6 +1,6 @@
 [
   {
-    "name": "EOS Mainnet",
+    "name": "EOS",
     "description": "The EOS Mainnet",
     "owner": "The EOS community",
     "chainId": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "name": "TELOS Mainnet",
+    "name": "TELOS",
     "description": "TELOS Mainnet",
     "owner": "TELOS",
     "chainId": "4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11",
@@ -40,6 +40,13 @@
     "network": "eos",
     "endpoints": [
       {
+        "name": "Telos Germany",
+        "protocol": "https",
+        "port": 443,
+        "url": "apinode.telosgermany.io",
+        "description": "HTTPS API provided by BP candidate TelosGermany"
+      },
+      {
         "name": "Telos Foundation",
         "protocol": "https",
         "port": 443,
@@ -47,16 +54,23 @@
         "description": "Load balancer of various public nodes provided by the Telos Foundation"
       },
       {
-        "name": "Telos Germany",
+        "name": "EOS BlockSmith",
         "protocol": "https",
         "port": 443,
-        "url": "apinode.telosgermany.io",
-        "description": "HTTPS API provided by BP candidate TelosGermany"
-      }
+        "url": "telos-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Telos Mainnet API"
+      },
+      {
+        "name": "CalEOS",
+        "protocol": "https",
+        "port": 443,
+        "url": "telos.caleos.io",
+        "description": "Public node provided by CalEOS"
+      }      
     ]
   },
   {
-    "name": "WAX Mainnet",
+    "name": "WAX",
     "description": "WAX Mainnet",
     "owner": "WAX",
     "chainId": "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
@@ -72,12 +86,9 @@
         "description": "Eosphere WAX Mainnet API"
       }
     ]
-  }
-  
-  
-  ,
+  },
   {
-    "name": "WORBLI Mainnet",
+    "name": "WORBLI",
     "description": "WORBLI Mainnet",
     "owner": "WORBLI",
     "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
@@ -91,11 +102,18 @@
         "port": 443,
         "url": "api.worbli.io",
         "description": "HTTPS API"
-      }
+      },
+      {
+        "name": "EOS BlockSmith",
+        "protocol": "https",
+        "port": 443,
+        "url": "worbli-mainnet.eosblocksmith.io",
+        "description": "EOS BlockSmith Worbli Mainnet API"
+      }      
     ]
   },
   {
-    "name": "MEETONE Mainnet",
+    "name": "MEETONE",
     "description": "MEETONE Mainnet",
     "owner": "MEETONE",
     "chainId": "cfe6486a83bad4962f232d48003b1824ab5665c36778141034d75e57b956e422",
@@ -113,7 +131,7 @@
     ]
   },
   {
-    "name": "BOS Mainnet",
+    "name": "BOS",
     "description": "BOS Mainnet",
     "owner": "BOS",
     "chainId": "d5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86",
@@ -131,96 +149,7 @@
     ]
   },
   {
-    "name": "EOS Mainnet",
-    "description": "The EOS Mainnet",
-    "owner": "The EOS community",
-    "chainId": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
-    "type": "mainnet",
-    "prefix":"EOS",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "eos-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith EOS Mainnet API"
-      },
-      {
-        "name": "franceos",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.franceos.fr",
-        "description": "API Node"
-      },
-      {
-        "name": "EOS Nation",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.eosn.io",
-        "description": "API Node"
-      },
-      {
-        "name": "EOS New York",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.eosnewyork.io",
-        "description": "API Node"
-      },
-      {
-        "name": "Cypherglass",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.cypherglass.com",
-        "description": "API Node"
-      }
-    ]
-  },
-  {
-    "name": "WORBLI Mainnet",
-    "description": "WORBLI Mainnet",
-    "owner": "WORBLI",
-    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
-    "type": "mainnet",
-    "prefix":"WBI",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "worbli-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Worbli Mainnet API"
-      }
-    ]
-  },
-  {
-    "name": "TELOS Mainnet",
-    "description": "TELOS Mainnet",
-    "owner": "TELOS",
-    "chainId": "4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11",
-    "type": "mainnet",
-    "prefix":"TLOS",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "telos-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Telos Mainnet API"
-      },
-      {
-        "name": "CalEOS",
-        "protocol": "https",
-        "port": 443,
-        "url": "telos.caleos.io",
-        "description": "Public node provided by CalEOS"
-      }
-    ]
-  },
-  {
-    "name": "TELOS Testnet",
+    "name": "TELOS-testnet",
     "description": "TELOS Testnet",
     "owner": "TELOS",
     "chainId": "e17615decaecd202a365f4c029f206eee98511979de8a5756317e2469f2289e3",
@@ -259,7 +188,7 @@
     ]
   },
   {
-    "name": "Jungle Testnet v2",
+    "name": "Jungle-testnet-v2",
     "description": "Welcome to the Jungle",
     "owner": "cryptolions",
     "chainId": "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
@@ -277,7 +206,7 @@
     ]
   },
   {
-    "name": "Kylin Testnet",
+    "name": "Kylin-testnet",
     "description": "CryptoKylin Testnet",
     "owner": "CryptoKylin",
     "chainId": "5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191",
@@ -316,7 +245,7 @@
     ]
   },
   {
-    "name": "WORBLI Testnet",
+    "name": "WORBLI-testnet",
     "description": "WORBLI Testnet",
     "owner": "WORBLI",
     "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
