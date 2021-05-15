@@ -40,13 +40,6 @@
     "network": "eos",
     "endpoints": [
       {
-        "name": "Telos Germany",
-        "protocol": "https",
-        "port": 443,
-        "url": "apinode.telosgermany.io",
-        "description": "HTTPS API provided by BP candidate TelosGermany"
-      },
-      {
         "name": "Telos Foundation",
         "protocol": "https",
         "port": 443,
@@ -54,19 +47,12 @@
         "description": "Load balancer of various public nodes provided by the Telos Foundation"
       },
       {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "telos-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Telos Mainnet API"
-      },
-      {
         "name": "CalEOS",
         "protocol": "https",
         "port": 443,
         "url": "telos.caleos.io",
         "description": "Public node provided by CalEOS"
-      }      
+      }
     ]
   },
   {
@@ -84,49 +70,6 @@
         "port": 443,
         "url": "wax.eosphere.io",
         "description": "Eosphere WAX Mainnet API"
-      }
-    ]
-  },
-  {
-    "name": "WORBLI",
-    "description": "WORBLI Mainnet",
-    "owner": "WORBLI",
-    "chainId": "73647cde120091e0a4b85bced2f3cfdb3041e266cbbe95cee59b73235a1b3b6f",
-    "type": "mainnet",
-    "prefix":"WBI",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "Worbli",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.worbli.io",
-        "description": "HTTPS API"
-      },
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "worbli-mainnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Worbli Mainnet API"
-      }      
-    ]
-  },
-  {
-    "name": "MEETONE",
-    "description": "MEETONE Mainnet",
-    "owner": "MEETONE",
-    "chainId": "cfe6486a83bad4962f232d48003b1824ab5665c36778141034d75e57b956e422",
-    "type": "mainnet",
-    "prefix":"MEETONE",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "MEETONE",
-        "protocol": "https",
-        "port": 443,
-        "url": "fullnode.meet.one",
-        "description": "MEETONE Mainnet API"
       }
     ]
   },
@@ -188,24 +131,6 @@
     ]
   },
   {
-    "name": "Jungle-testnet-v2",
-    "description": "Welcome to the Jungle",
-    "owner": "cryptolions",
-    "chainId": "e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473",
-    "type": "testnet",
-    "prefix":"EOS",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "Jungle 2",
-        "protocol": "https",
-        "port": 443,
-        "url": "jungle2.cryptolions.io",
-        "description": "Cryptolions Jungle Testnet v2 API"
-      }
-    ]
-  },
-  {
     "name": "Kylin-testnet",
     "description": "CryptoKylin Testnet",
     "owner": "CryptoKylin",
@@ -222,49 +147,10 @@
         "description": "Public node provided by Aloha EOS"
       },
       {
-        "name": "eospace",
-        "protocol": "https",
-        "port": 443,
-        "url": "api.kylin-testnet.eospace.io",
-        "description": "HTTPS API"
-      },
-      {
         "name": "eosasia",
         "protocol": "https",
         "port": 443,
         "url": "api-kylin.eosasia.one",
-        "description": "HTTPS API"
-      },
-      {
-        "name": "eoslaomao",
-        "protocol": "https",
-        "port": 443,
-        "url": "api-kylin.eoslaomao.com",
-        "description": "HTTPS API"
-      }
-    ]
-  },
-  {
-    "name": "WORBLI-testnet",
-    "description": "WORBLI Testnet",
-    "owner": "WORBLI",
-    "chainId": "0d1ba39b44e70e9c36b74d60677ef3b686bd4347ade092b816886a6a35ddb6f7",
-    "type": "testnet",
-    "prefix":"WBI",
-    "network": "eos",
-    "endpoints": [
-      {
-        "name": "EOS BlockSmith",
-        "protocol": "https",
-        "port": 443,
-        "url": "worbli-testnet.eosblocksmith.io",
-        "description": "EOS BlockSmith Worbli Testnet API"
-      },
-      {
-        "name": "EOSphere",
-        "protocol": "https",
-        "port": 443,
-        "url": "worbli-testnet.eosphere.io",
         "description": "HTTPS API"
       }
     ]
