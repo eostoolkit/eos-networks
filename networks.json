@@ -154,5 +154,37 @@
         "description": "HTTPS API"
       }
     ]
+  },
+  {
+    "name": "Freedom First Mainnet",
+    "description": "Freedom First Mainnet",
+    "owner": "Freedom First",
+    "chainId": "342f1b4af05f4978a8f5d8e3e3e3761cb22dacf21a93e42abe0753bdacb6b621",
+    "type": "mainnet",
+    "prefix":"FF",
+    "network": "ff",
+    "endpoints": [
+      {
+        "name": "dconnect.live",
+        "protocol": "https",
+        "port": 443,
+        "url": "dconnect.live",
+        "description": "dConnect.live public node"
+      },
+      {
+        "name": "steem.host",
+        "protocol": "https",
+        "port": 443,
+        "url": "steem.host",
+        "description": "steem.host public node"
+      },
+      {
+        "name": "gostomp.co.za",
+        "protocol": "https",
+        "port": 443,
+        "url": "gostomp.co.za",
+        "description": "gostomp.co.za public node"
+      }
+    ]
   }
 ]
